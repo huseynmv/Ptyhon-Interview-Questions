@@ -164,3 +164,28 @@ print (salam.__doc__)
 
 ```
 
+## 11. With Python, how do you find out which directory you are currently in?
+
+* Bunu tapmaq üçün getcwd() metodundan istifadə edilir. Öncəliklə os modulunu imoprt etməliyik.
+
+```py
+
+import os
+
+os.getcwd()
+
+'C:\Users\lifei\AppData\Local\Programs\Python\Python36-32'
+
+```
+
+Əlavə olaraq, chdir() metodu ilə bu direktoriyanı dəyişə də bilərik.
+
+```py
+os.chdir('C:\\Users\\lifei\\Desktop')
+os.getcwd()
+
+'C:\Users\lifei\Desktop'
+
+```
+
+
