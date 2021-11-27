@@ -264,3 +264,25 @@ a = 11
 string = str(a)
 ```
 
+## 16. What is Garbage Collection?
+
+* Pythonda yaddaş tənzimləmək üçün proqramda istifadə edilməyən obyektləri avtomatik olaraq silir. Bu proses Garbage Collection adlanır. Garbage collection hər bir obyekt üçün reference count (referans sayı) sayır. Və reference count 0-a bərabır olduğu zaman həmin obyekti silir. Obyektin referans sayı bu obyekt yeni bir dəyişənə ötürüldüyü zaman və ya list, tuple, dictionary-də istifadə olunduğu zaman artır. Obyektin referansları yenidən təyin edildiyi zaman və ya dəyişdirildiyi zaman isə reference count azalır.
+
+```py
+
+a = 100  // <100> obyekti yaranır
+
+b = a // <100>-ün reference count-u artır
+
+c = b // <100>-ün reference count-u artır
+
+d = [a] // <100>-ün reference count-u artır
+
+b = 50 // <100>-ün reference count-u azalır
+
+d[0] = 30 // <100>-ün reference count-u azalır
+
+```
+
+
+
