@@ -158,7 +158,9 @@ salam()
 
 Funksiyanın docstringini görmək üçün __doc__ atributu istifadə edilir.
 
+```py
+
 print (salam.__doc__)
 
-```py
+```
 
