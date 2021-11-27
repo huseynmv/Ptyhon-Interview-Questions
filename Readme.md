@@ -253,3 +253,14 @@ import os
 os.unlink("app.py")
 ```
 
+## 15. How do I convert a number to a string?
+
+* Pythonda ədədi stringə çevirmək üçün built-in funksiya olan str()-dən istifadə edirik. Hexadecimal və octal çevirmə üçün isə hex() və oct() funksiyasından istifadə edilir.
+
+```py
+
+a = 11
+
+string = str(a)
+```
+
