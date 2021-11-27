@@ -188,7 +188,7 @@ os.getcwd()
 
 ```
 
-## 11. How many arguments can the range() function take?
+## 12. How many arguments can the range() function take?
 
 * range() funksiyası 3 ədəd arqument götürür. Bunlar start, stop və step arqumentləridir. Start hansı ədəddən başlayacağını, stop hansı ədədə qədər davam edəcəyini, step isə artım ədədini bildirir. Step 2 olsa ədədlər iki - iki artacaqdır.
 
@@ -235,4 +235,21 @@ Belə olan halda a is not defined erroru ilə qarşılaşacağıq. Erroru həll 
     print(a)
 ```
 
+## 14. What functions or methods will you use to delete a file in Python?
+
+* remove() və unlink() metodlarından istifadə edə bilərik.
+
+```py
+
+import os
+os.remove('app.py')
+```
+
+Unlinkin istifadəsi isə aşağıdakı kimidir.
+
+```py 
+
+import os 
+os.unlink("app.py")
+```
 
