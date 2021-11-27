@@ -62,6 +62,20 @@ my_dict = {
 }
 
 print(my_dict['Ad'])
+```
 
+## 6. How do you get a list of all the keys in a dictionary?
+
+* Bunun üçün keys() funksiyasından istiffadə edilir.
+
+```py
+
+my_dict = {
+    'Ad' : 'Huseyn',
+    'Soyad' : 'Mammadov'
+}
+
+print(my_dict.keys())
+```
 
 
