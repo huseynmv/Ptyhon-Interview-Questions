@@ -309,3 +309,7 @@ w - Write, faylın üzərinə yazmaq üçün istifadə edilir, fayl mövcud deyi
 ## 19. What are negative indexes and why are they used?
 
 * Pythonda listin indexi neqativ və pozitiv ola bilər. İndex pozitiv olduğu zaman 0 birinci index, 1 ikinci index olur və indexlər bu ardıcıllıqla davam edir. İndex neqativ olduqda isə -1 sondan birinci index, -2 sondan ikinci index olur və bu ardıcıllıqla davam edir. Neqativ index adətən listə yeni əlavə olunmuş obyekti silmək üçün və ya ən son əlavə olunmuş obyekti görmək üçün istifadə edilir.
+
+## 20. Suppose list1 is [2, 33, 222, 14, 25], What is list1[-1] ?
+
+* Yuxarıdakı sualda qeyd etdiyimiz kimi -1 indexi listin daxilində sonuncu elementi təmsil edir. Bu halda bizim listimizdə sonuncu element 25 olduğu üçün, cavab 25 olacaqdır.
