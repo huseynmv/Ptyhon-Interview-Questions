@@ -1,7 +1,7 @@
 ## Python interview questions
 
 
-## What is a method?
+## 1. What is a method?
 
 Metod hər hansı bir x obyektinin daxilindəki funksiyaya deyilir. Həmin metodu x.funksiya kimi cağıra bilərik.
 
