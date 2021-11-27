@@ -305,3 +305,7 @@ w - Write, faylın üzərinə yazmaq üçün istifadə edilir, fayl mövcud deyi
 ## 18. What is Monkey patching ?
 
 * Hansısa classı və ya metodu sonradan dəyişmək prosesinə pythonda monkey patching deyilir. Bəzən böyük proyektlərdə işləyən zaman third-party bir kitabxananın bizin üçün əlverişli olmadığını görə bilirik. Bu zaman monkey patching istifadə edilə bilər.
+
+## 19. What are negative indexes and why are they used?
+
+* Pythonda listin indexi neqativ və pozitiv ola bilər. İndex pozitiv olduğu zaman 0 birinci index, 1 ikinci index olur və indexlər bu ardıcıllıqla davam edir. İndex neqativ olduqda isə -1 sondan birinci index, -2 sondan ikinci index olur və bu ardıcıllıqla davam edir. Neqativ index adətən listə yeni əlavə olunmuş obyekti silmək üçün və ya ən son əlavə olunmuş obyekti görmək üçün istifadə edilir.
