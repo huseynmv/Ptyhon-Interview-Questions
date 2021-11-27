@@ -50,3 +50,18 @@ print(sum(a))
 55
 ```
 
+## 5. What is a dictionary in Python?
+
+* Pythonun built-in data tiplərindən biri də dictionarydir. Dictionary data tipində key və value sistemindən istifadə olunur. Key və value arasında one-to-one relationship mövcuddur.
+
+```py
+
+my_dict = {
+    'Ad' : 'Huseyn',
+    'Soyad' : 'Mammadov'
+}
+
+print(my_dict['Ad'])
+
+
+
