@@ -301,3 +301,7 @@ r - Read, faylı oxumaq üçün istifadə olunur. Fayl mövcud olmadığı zaman
 
 w - Write, faylın üzərinə yazmaq üçün istifadə edilir, fayl mövcud deyilsə yaradır.
 
+
+## 18. What is Monkey patching ?
+
+* Hansısa classı və ya metodu sonradan dəyişmək prosesinə pythonda monkey patching deyilir. Bəzən böyük proyektlərdə işləyən zaman third-party bir kitabxananın bizin üçün əlverişli olmadığını görə bilirik. Bu zaman monkey patching istifadə edilə bilər.
