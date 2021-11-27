@@ -140,3 +140,25 @@ Burada isə hər 3 dəyişən 4 qiymətini alır.
 
 ```
 
+## 10. What is a docstring?
+
+* Docstring hər hansı bit funsiyanın və ya metodun daxilində yazılır. Və həmin funksiya/metodun nə etdiyini açıqlayır. Docstringlər 3 ədəd tək/cüt dırnaq arasında yazılır.
+
+```py
+
+def salam():
+    """
+    Bu funskiya ekrana salam yazısını çıxarır
+    """
+    print("salam")
+
+salam()
+
+```
+
+Funksiyanın docstringini görmək üçün __doc__ atributu istifadə edilir.
+
+print (salam.__doc__)
+
+```py
+
