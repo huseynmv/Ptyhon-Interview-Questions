@@ -188,4 +188,22 @@ os.getcwd()
 
 ```
 
+## 11. How many arguments can the range() function take?
+
+* range() funksiyası 3 ədəd arqument götürür. Bunlar start, stop və step arqumentləridir. Start hansı ədəddən başlayacağını, stop hansı ədədə qədər davam edəcəyini, step isə artım ədədini bildirir. Step 2 olsa ədədlər iki - iki artacaqdır.
+
+```py
+
+range(5)
+
+Yalnız 1 arqument verdikdə, funksiya bu ədədi stop arqumenti olaraq qəbul edir. Bu halda step 1 olur.
+
+range(0,6)
+
+İki arqument verdikdə birinci rəqəm start arqumenti, ikinci rəqəm isə stop arqumenti olur. Bu halda step yenə 1-ə bərabərdir.
+
+range(0,20,2)
+
+Üç arqument verdikdə isə birinci rəqəm start arqumenti, ikinci rəqəm isə stop arqumenti, üçüncü rəqəm isə step arqumenti olur.
+
 
