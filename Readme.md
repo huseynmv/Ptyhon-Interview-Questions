@@ -285,4 +285,19 @@ d[0] = 30 // <100>-ün reference count-u azalır
 ```
 
 
+## 17. Explain the use "with" statement in python?
+
+* Pythonda with ifadəsini fayllarla işləyərkən istifadə edirik. with ilə hansısa faylı açıb, faylın içindəki məlumatlarla müəyyən içlər görə bilərik. with ifadəsinin üstün cəhətlərindən biri faylı açdıqdan sonra həmin faylı bağlamağa ehtiyac duymamağımızdır. with özündən sonra gələn kod blokunu icra etdikdən sonra faylı avtomatik olaraq bağlayır.
+
+```py
+
+with open('test.txt', 'r') as test :
+
+``` 
+
+with-in istifadəsi zamanı muxtəlif metodlardan istifadə edə bilərik :
+
+r - Read, faylı oxumaq üçün istifadə olunur. Fayl mövcud olmadığı zaman error verir.
+
+w - Write, faylın üzərinə yazmaq üçün istifadə edilir, fayl mövcud deyilsə yaradır.
 
