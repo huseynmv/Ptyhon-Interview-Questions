@@ -25,3 +25,15 @@ else:
     pass
 
 ```
+
+## 3. Suppose list1 is [2, 33, 222, 14, 25], What is list1[-1] ?
+
+* index olaraq -1 istifadə etdiyimiz zaman listin ən sonuncu obyektini alırıq 
+
+```py 
+a = [2, 33, 222, 14, 25]
+print(a[-1])
+
+25
+
+```
