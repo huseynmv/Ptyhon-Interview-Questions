@@ -123,3 +123,20 @@ Normal bölünmə zamanı cavab 3.5 olmalı idi.
 
 6
 ```
+
+## 9. How can you declare multiple assignments in one statement?
+
+Bu əməliyyatı 2 yanaşma ilə edə bilərik :
+
+```py
+
+a,b,c = 1,2,3
+
+Burada a=1, b=2, c=3 qiymmətini alır.
+
+a = b = c = 4
+
+Burada isə hər 3 dəyişən 4 qiymətini alır.
+
+```
+
