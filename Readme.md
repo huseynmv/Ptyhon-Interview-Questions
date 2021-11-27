@@ -37,3 +37,16 @@ print(a[-1])
 25
 
 ```
+
+## 4. Write a Python program to calculate the sum of a list of numbers.
+
+* Listdəki ədədlərin cəmini tapmaq üçün sum() funksiyasından istifadə edə bilərik.
+
+```py
+a = [1,2,3,4,5,6,7,8,9,10]
+
+print(sum(a))
+
+55
+```
+
