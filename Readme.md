@@ -590,7 +590,7 @@ while True:
 ```
 
 Sonsuz dövr olduğunu görüb ctrl + c sıxırıq. 
-
+```py
 salam
 salam
 salam
@@ -606,4 +606,6 @@ Traceback (most recent call last):
   File "c:\UsersHuseyn\Desktop\app.py", line 2, in <module>
     print('salam')
 KeyboardInterrupt
+```
+
 
