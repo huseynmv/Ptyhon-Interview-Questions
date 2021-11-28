@@ -381,9 +381,44 @@ file = open("c:\\scores.txt", "w")
         ['Rustam', 'Yusif', 'Ayten']
     ```
 
-P.s : Tuple immutable olduğu halda daxilində mutable obyektlər daşıya bilər.
+* P.s : Tuple immutable olduğu üçün daxilində mutable obyektlər daşıya bilər.
 
     ```py
     tuple1 = ([1,2,3], 'salam')
     ```
-    
+
+## 26. How do you create your own package in Python?
+
+* İlk öncə package üçün direktoriya yaradırıq və ona packegimizin adını veririk.
+
+* Daha sonra classları və lazım olacaq funksiyaları yazırıq
+
+* Sonda isə __init__.py faylı yaradırıq.
+
+Aşağıdakı nümunədə Cars package yaradacağıq.
+
+Cars folderini yaratdıqdan sonra onun daxilindəki modulları yazmalıyıq. 
+
+```py
+
+    class Bmw:
+        def __init__(self):
+            self.models = ['x5', 'x3', 'm5', 'x6']
+
+    class Mercedes:
+        def __init__(self):
+            self.models = ['c220', 's560', 'e320']
+```
+
+Bütün prosesləri etdikdən sonra növbə __init__ faylını yaratmağa gəlir. init faylını yaradarkən bu faylın Cars ilə eyni direktoriyada olmasına diqqət etməliyik. init faylının içini boş buraxa bilərik.
+
+İndi isə yaratdığımız packagei ostifsdə edək. Bunun üçün eyni directoriyada app.py faylı yaradaq. app.py faylında yaratdığımız packagei istifadə etmək üçün daha öncə yaratdığımız classları import etməliyik.
+
+```py
+    from Cars import Bmw
+    from cars import Mercedes
+
+    new_car = Bmw()
+
+```
+
