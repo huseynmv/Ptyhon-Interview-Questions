@@ -609,3 +609,6 @@ KeyboardInterrupt
 ```
 
 
+## 37. When would you use a break statement in a for loop?
+
+* Hər hansı bir loopa girdikdə, istədiyimizi aldıqdan sonra döngünün dayanmasını istəyiriksə break-dən istifadə edirik.
