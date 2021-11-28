@@ -328,6 +328,8 @@ w - Write, faylın üzərinə yazmaq üçün istifadə edilir, fayl mövcud deyi
 a = ("a", "b", "c", "d", "e", "f", "g", "h")
 x = slice(3, 5)
 print(a[x])   // 'd', 'e'
+```
 
+## 23. Name the File-related modules in Python?
 
-
+* Pythonda fayllar və fayl sistemi ilə işləmək mümkündür. Bundan istifadə edərək siz faylı silə, yenisini yaradabilə, faylı dəyişə bilə və ya silə bilərsiniz. 3 əsas modul istifadə edilir. os, os.path və shutil. os və os.path faylları "tutmaq üçün" istifadə edilir. shutil isə faylı kopyalamaq, silmək kimi işlər üçün istifadə olunur.
