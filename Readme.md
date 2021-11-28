@@ -547,3 +547,20 @@ def A():
 
 ```
 
+
+## 34. How do you take input in Python?
+
+* Pythonda userdən input almaq üçün built-in funksiya olan input()-dan istifadə edilir. input() userdən məlumatı alır, bu məlumatı hansısa bir dəyişənə bərabər edə bilirik. Yazılışı aşağıdakı kimidir. 
+
+```py
+
+ad = input('Adınızı daxil edin')
+```
+
+input götürdüyü məlumatı string formasında saxlayın. Bir məsələyə diqqət etməliyik. Misal üçün əgər istifadəçidən yaşını almaq istəyiriksə, bu zaman yaş bizə '21' kimi görünəcəkdir.(string formasında). Bu isə kodumuzun davamında bizə problem yarada bilər. Errordan qaçmaq üçün ən başda aldığımız inputu integerə çevirməliyik.
+
+```py
+
+yash = int(input('Yashinizi daxil edin'))
+
+```
