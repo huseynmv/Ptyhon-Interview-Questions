@@ -313,3 +313,8 @@ w - Write, faylın üzərinə yazmaq üçün istifadə edilir, fayl mövcud deyi
 ## 20. Suppose list1 is [2, 33, 222, 14, 25], What is list1[-1] ?
 
 * Yuxarıdakı sualda qeyd etdiyimiz kimi -1 indexi listin daxilində sonuncu elementi təmsil edir. Bu halda bizim listimizdə sonuncu element 25 olduğu üçün, cavab 25 olacaqdır.
+
+## 21. What is TkInter?
+
+* Tkinter pythonun GUI (Graphical user interface) üçün istifadə olunun kitabxanasıdır. Ən çox desktop applicationlar yaratmaq üçün istifadə olunur.
+
