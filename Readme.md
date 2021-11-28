@@ -435,3 +435,32 @@ print(len(map(list, x)))
 ```
 
 Yuxarıdakı kod map funksiyasının uzunluğu olmadığına görə error verəcəkdir.
+
+## 29. Explain help() and dir() functions in Python.
+
+* help() funksiyasını hər hansı bir obyekt, metod və ya atribut üçün istifadə etdikdə həmin obyektin Python dokumentasiyasını bizə təqdim edir.
+
+```py
+
+help(len)
+
+Help on built-in function len in module builtins:
+
+len(obj, /)
+    Return the number of items in a container.
+
+```
+
+* dir() funksiyası isə obyektin və ya classım atributlarını bizə göstərir.
+
+```py
+class Person:
+  def __dir__(self):
+    return ['age', 'name', 'salary']
+
+p1 = Person()
+
+print(dir(p1))
+
+['age', 'name', 'salary']
+```

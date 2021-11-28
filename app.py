@@ -1,11 +1,7 @@
-class Bmw:
-        def __init__(self):
-            self.models = ['x5', 'x3', 'm5', 'x6']
+class Person:
+  def __dir__(self):
+    return ['age', 'name', 'salary']
 
-class Mercedes:
-        def __init__(self):
-            self.models = ['c220', 's560', 'e320']
-            
-obj = Bmw()
+p1 = Person()
 
-print(obj.models)
+print(dir(p1))
