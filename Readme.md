@@ -318,3 +318,16 @@ w - Write, faylın üzərinə yazmaq üçün istifadə edilir, fayl mövcud deyi
 
 * Tkinter pythonun GUI (Graphical user interface) üçün istifadə olunun kitabxanasıdır. Ən çox desktop applicationlar yaratmaq üçün istifadə olunur.
 
+
+## 22. What is slicing?
+
+* Pythonda slice() funsiyasi list, tuple və dictionaryləri müəyyən hissəyə bölmək ("kəsmək") üçün istifadə olunur. Bu funksiya da range funksiyası kimi 3 arqument götürür. Start, stop və step.
+
+```py
+
+a = ("a", "b", "c", "d", "e", "f", "g", "h")
+x = slice(3, 5)
+print(a[x])   // 'd', 'e'
+
+
+
