@@ -499,3 +499,32 @@ print(my_list)
 
 Bu zaman nəticə [10,7,5,3,2,1] olacaqdır.
 
+
+## 32. Explain join() and split() in Python.
+
+* Bəzən kodumuzda müəyyən stringləri ayırmaq lazım gələcəkdir. String immutable tip olduğu üçün, bu zaman köməyimizə split() funksiyası gəlir. split() funksiyasının əsas məqsədi stringi bizim müəyyən edəcəyimiz dəyərə görə bölməkdir(substringlərə ayırmaq).
+
+```py
+
+a = 'salam dunya'
+
+print(a.split('d'))
+```
+
+Yuxarıdakı kodda salam dunya sözünü d hərfinə ilə ayırırıq. Nəticə isə aşağıdakı kimi olacaqdır.
+
+```py
+
+['salam ', 'unya']
+```
+
+* join() metodu isə bizim təyin etdiyimiz simvol ilə iterable elementi birləşdirib bir string halına gətirir.
+
+```py
+
+
+list1 = ['1', '2', '3', '4']
+ 
+print(', '.join(list1))
+
+```

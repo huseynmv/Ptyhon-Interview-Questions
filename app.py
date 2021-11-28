@@ -1,5 +1,4 @@
-list1 = [1,3,2,4,11,5,6]
 
-list1.sort(reverse=True)
-
-print(list1)
+list1 = ['1', '2', '3', '4']
+ 
+print(', '.join(list1))
