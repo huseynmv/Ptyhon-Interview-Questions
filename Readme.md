@@ -577,3 +577,33 @@ yash = int(input('Yashinizi daxil edin'))
 
 5. Dinamik tipli dil olması. Hər dəfə data tipini yazmaq məcburiyyətində deyilik.
 
+
+## 36. If you are ever stuck in an infinite loop, how will you break out of it?
+
+* Sonsuz dövrdən çıxmaq üçün klaviaturada ctrl və c düymələrini birlikdə sıxırıq. 
+
+```py
+
+while True:
+  
+  print('salam')
+```
+
+Sonsuz dövr olduğunu görüb ctrl + c sıxırıq. 
+
+salam
+salam
+salam
+salam
+.
+.
+.
+.
+.
+.
+
+Traceback (most recent call last):
+  File "c:\UsersHuseyn\Desktop\app.py", line 2, in <module>
+    print('salam')
+KeyboardInterrupt
+
