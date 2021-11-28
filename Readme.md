@@ -422,3 +422,6 @@ Bütün prosesləri etdikdən sonra növbə __init__ faylını yaratmağa gəlir
 
 ```
 
+## 27. Is Python object oriented? what is object oriented programming?
+
+* Bəli, python obyekt yönümlü proqramlaşdırma dilidir. Obyekt yönümlü proqramlaşdırma (OOP) obyekt və classlardan istifadə edilən proqramlaşdırma paradiqmasıdır. OOP-nin 4 əsas prinsipi var. Bunlar inheritance, polymorphisms, encapsulation və abstractiondur. Məşhur OOP dilləri python, java, golang, c++ hesab edilir.
