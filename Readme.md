@@ -342,3 +342,48 @@ print(a[x])   // 'd', 'e'
 file = open("c:\\scores.txt", "w")
 
 ```
+
+## 25. What Are The Types of Objects Support in Python Language?
+
+* Pythonda obyektin iki növü mövcuddur. Bunlar immutable(dəyişilə bilməyən) və mutable(dəyişə bilən) obyektlərdir. Bu iki tipin ən əsas fərqi, mutable obyektlərin konteninin dəyişkən, immutable obyektlərin kontentinin dəyişkən olmamasıdır.
+
+    * İmmutable obyektlər : Built-in data tipləri olan int, float, boolean, string, tuple immutable obyektlərdir.
+        
+        ```py
+        tuple1 = (0, 1, 2, 3) 
+        tuple1[0] = 4
+        print(tuple1)
+        ```
+    Tuple immutable olduğu üçün onun daxilindəki elementləri dəyişmək olmur. Error :
+    
+    File "c:\Users\Huseyn\Desktop\app.py", line 2, in <module>
+    tuple1[0] = 4
+    TypeError: 'tuple' object does not support item assignment
+
+    ```py
+        text = "Salam dunya"
+        text[0] = 'A'
+        print(text)
+    ```
+    String də immutable olduğu üçün aşağıdakı error ilə qarşılaşacağıq :
+
+    TypeError: 'str' object does not support item assignment
+
+* Mutable obyektlər : Bunlara list, dict, set aiddir.
+
+    ```py
+        adlar = ['Huseyn', 'Yusif', 'Ayten']
+        adlar[0] = 'Rustam'
+        print(adlar)
+    ```
+    List mutable olduğu üçün daxilindəki elementləri sonradan dəyişmək mümkündür. Yuxarıdakı kodun nəticəsi belə olacaqdır :
+    ```py
+        ['Rustam', 'Yusif', 'Ayten']
+    ```
+
+P.s : Tuple immutable olduğu halda daxilində mutable obyektlər daşıya bilər.
+
+    ```py
+    tuple1 = ([1,2,3], 'salam')
+    ```
+    
