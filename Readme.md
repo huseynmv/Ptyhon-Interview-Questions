@@ -564,3 +564,16 @@ input götürdüyü məlumatı string formasında saxlayın. Bir məsələyə di
 yash = int(input('Yashinizi daxil edin'))
 
 ```
+
+## 35. Mention five benefits of using Python?
+
+1. Python high level proqramlaşdırma dili olduğu üçün(insan dilinə yaxın) oxuma, yazma və öyrənməsi yeni başlayanlar üçün digər dillərə görə daha asan hesab edilir.
+
+2. Multi purpose dil olması. Pythonu müxtəlif məqsədlər üçün istifadə etmək olar. Desktop application, web development, data analitikası, süni intellekt və s.
+
+3. Kitabxanalarının çox olması. Hesablamalar üçün Numpy, data analitika üçün Pandas və s.
+
+4. Obyekt yönümlü olması. Pythonda demək olar ki, hər şey classlardan ibarətdir və bu bizi uzun kod yazmaqdan xilas edir.
+
+5. Dinamik tipli dil olması. Hər dəfə data tipini yazmaq məcburiyyətində deyilik.
+
