@@ -473,3 +473,29 @@ x = ['ab', 'cd']
 print(len(list(map(list, x))))
 ```
 Yuxarıdakı kodu işlətdikdə list'də 2 element olduğu üçün len() metodunun köməyi ilə, list'in uzunluğunu, yəni 2 alacayıq.
+
+## 31. Write a sorting algorithm for a numerical dataset in Python.
+
+* Hanısa bir dataseti sıralamaq üçün pythonda sort() funksiyası istifadə edilir. 
+
+```py
+my_list = [1,2,3,7,5,10]
+
+my_list.sort()
+
+print(my_list)
+```
+
+Bu kodun nəticəsi [1,2,3,5,7,10] olacaqdır. sort() funksiyası kiçikdən böyüyə və ya əlifda sırası ilə (ascending order) sıralayır. Böyükdən kiçiyə və ya əlifba sırasının tərsinə sıralamaq üçün isə sort() funksiyasının daxilinə reverse=True parametri ötürməliyik.
+
+```py
+
+my_list = [1,2,3,7,5,10]
+
+my_list.sort(reverse=True)
+
+print(my_list)
+```
+
+Bu zaman nəticə [10,7,5,3,2,1] olacaqdır.
+

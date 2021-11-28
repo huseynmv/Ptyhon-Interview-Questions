@@ -1,7 +1,5 @@
-class Person:
-  def __dir__(self):
-    return ['age', 'name', 'salary']
+list1 = [1,3,2,4,11,5,6]
 
-p1 = Person()
+list1.sort(reverse=True)
 
-print(dir(p1))
+print(list1)
