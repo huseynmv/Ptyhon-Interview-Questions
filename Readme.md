@@ -464,3 +464,12 @@ print(dir(p1))
 
 ['age', 'name', 'salary']
 ```
+
+
+## 30. What is the output of the following?
+
+```py
+x = ['ab', 'cd']
+print(len(list(map(list, x))))
+```
+Yuxarıdakı kodu işlətdikdə list'də 2 element olduğu üçün len() metodunun köməyi ilə, list'in uzunluğunu, yəni 2 alacayıq.
