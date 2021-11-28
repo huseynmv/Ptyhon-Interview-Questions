@@ -528,3 +528,22 @@ list1 = ['1', '2', '3', '4']
 print(', '.join(list1))
 
 ```
+
+## 33. What is the pass statement in Python?
+
+* Bəzən funksiya və ya metod yazarkən bu funksiyanın nə edəcəyinə ilk başda qərar verməyə bilərik. Lakin, funksiyanın yaddan çıxmaması üçün də onu qeyd etmək istəyirik. Əgər funksiyanın sadəcə adını yazıb dayansaq bu zaman errorla qarşılaşacağıq. Bu erroru önləmək üçün pass keywordündən və ya 3 nöqtədən ( ... ) istifadə edə bilərik.
+
+```py
+
+def A():
+    pass
+```
+Və ya 
+
+```py
+
+def A():
+    ...
+
+```
+
