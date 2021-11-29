@@ -939,3 +939,21 @@ Mammadov
 ```
 
 
+## 49. Which of the following is an invalid statement?
+
+a) abc = 1,000,000
+b) a b c = 1000 2000 3000
+c) a,b,c = 1000, 2000, 3000
+d) a_b_c = 1,000,000 
+
+* a variantında abc tuple təyin edilib. abc = (1, 000, 000) kim düşünə bilərik. Burda səhvlik yoxdur.
+
+* c variantında hər üç dəyişənə müxtəlif dəyərlər təyin edilib. a = 1000 b = 2000 c = 3000 kimi düşünə bilərik. Burda da səhvlik yoxdur.
+
+* d variantında eyni ilə a variantındaki proses baş verir.
+
+* b variantında isə dəyişənlər arasında boşluq olduğu üçün errorla qarşılaşacağıq.
+
+Cavab b
+
+
