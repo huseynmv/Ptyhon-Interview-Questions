@@ -612,3 +612,13 @@ KeyboardInterrupt
 ## 37. When would you use a break statement in a for loop?
 
 * Hər hansı bir loopa girdikdə, istədiyimizi aldıqdan sonra döngünün dayanmasını istəyiriksə break-dən istifadə edirik.
+
+## 38.  How would you declare a comment in Python?
+
+* Pythonda comment # simvolu ilə yazılır.
+
+```py
+
+# BU bir commentdir
+
+```
