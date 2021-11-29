@@ -888,3 +888,12 @@ Yuxarı koddakı i textimizdəki hər bir xarakteri təmsil edir.
 
 
 
+## 47. Explain split(), sub(), subn() methods of re module in Python.
+
+
+split() - bu method regex pattern'ə uygun olaraq verilmiş şərtə görə stringi bölür
+
+sub() - bu methodda 2 parametr verilir, biri textdə dəyişmək istədiyiniz hissədir. Digəri isə dəyişmək istədiyiniz hissəyə nə qoymaq istəyirsiz.
+
+subn() - bu method da eyni sub methodu kimi işləyir, eyni zamanda nə qədər dəyişiklik edibsə onun sayın da göstərir.
+
