@@ -872,3 +872,19 @@ Yuxarı koddakı i textimizdəki hər bir xarakteri təmsil edir.
 
 
 
+## 46. 
+
+* Inheritance hərfi tərcümədə miras mənasını verir. Pythonda inheritance bir classın bütün xüsusiyyətlərini başqa bir classa miras verilməsi, ötürülməsi deməkdir. İnheritance istifadə etdiyimiz zaman adətən, yeni yaranan classa derived class, miras alınan classa isə base class deyilir. İnheritanceın ən üstün cəhətlərindən biri bizi əlavə kodlar yazmaqdan xilas etməsidir. Belə ki, eyni xüsusiyyətlərə malik çoxlu class yaratmaq əvəzinə, bir class yaradıb digər classları isə ondan inherit edə bilərik. İnheritance istifadə etdiyimiz zaman yeni yaranan classa yeni metodlar da əlavə edə bilərik. 
+
+* İnheritanceın müxtəlif növləri mövcuddur. 
+
+1. Single inheritance - classın yalnın 1 classdan miras almasıdır.
+
+2. Multiple Inheritance - classın iki və daha atrıq classdan miras almasıdır.
+
+3. Multilevel Inheritance - Bu zaman B classı A classından inheritance alır, C classı isə B classından.
+
+4. Hierarchical İnheritance - Bir base classdan müxtəlif sayda classın miras almasıdır.
+
+
+
