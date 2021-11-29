@@ -1,3 +1,4 @@
-a = 3 + '3'
+a = 'Salam dunya'
 
-print (a)
+for i in a :
+  print(i)

@@ -843,5 +843,32 @@ TypeError: unsupported operand type(s) for +: 'int' and 'str'
 
 ```
 
+## 45. Use a for loop and illustrate how you would define and print the characters in a string out, one per line.
+
+* Bunu etmək üçün ilk öncə stringi loopa salmaq lazımdır. Aşağıdakı nümunədəki kimi edə bilərik.
+
+```py
+
+text = 'Salam dunya'
+
+for i in text :
+    print(i)
+
+S
+a
+l
+a
+m
+
+d
+u
+n
+y
+a
+
+```
+
+Yuxarı koddakı i textimizdəki hər bir xarakteri təmsil edir.
+
 
 
