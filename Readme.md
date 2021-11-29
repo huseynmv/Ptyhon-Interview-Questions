@@ -821,3 +821,27 @@ NameError: name 'AD' is not defined
 
 ```
 
+## 44. What is the concatenation?
+
+* Concetanation hərfi tərcümədə birləşmə deməkdir. Pythonda concatenation stringləri, listləri birləşdirmək üçün istifadə olunur. Nümunə :
+
+```py
+
+'10' + '10'
+
+'1010'
+
+```
+
+Unutmayaq ki, fərqli data tiplərini bir bir ilə birləşdirə bilmərik. Belə olan halda error ilə qarşılaşacağıq.
+
+```py
+
+3 + '3'
+
+TypeError: unsupported operand type(s) for +: 'int' and 'str'
+
+```
+
+
+
