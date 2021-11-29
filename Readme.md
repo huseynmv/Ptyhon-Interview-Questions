@@ -704,3 +704,88 @@ type(int('111'))
 
 ```
 
+
+## 41. What are assignment operators in Python?
+
+* Bu operatorları nümunələrlə daha yaxşı başa düşmək olar.
+
+'+' operatoru 
+
+```py
+a = 5
+
+b = a + 1
+
+print(b)
+
+6
+
+
+```
+
+'-' oeratoru
+
+```py
+
+c = 10
+
+c -= 1
+
+print(c)
+
+9
+
+```
+
+'*' operatoru
+
+```py
+
+d = 10
+
+d*2
+
+print(d)
+
+20
+
+```
+
+'/' operatoru
+
+```py
+
+b = 20 
+
+b / 2
+
+print(b)
+
+10
+
+```
+
+'%' opertoru qalığlı bölmə zamanı alınan qalığı göstərir
+
+```py
+
+a = 7%2
+
+print(a)
+
+1
+
+```
+
+'**' qüvvətə yüksəltmək üçün istifadə edilir.
+
+```py
+
+a = 10**2
+
+print(a)
+
+100
+
+```
+
