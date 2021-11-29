@@ -789,3 +789,21 @@ print(a)
 
 ```
 
+## 42. What are membership, operators?
+
+* Pythonda membership operatorları in və not in dir. Bu operatorlar hər hansı bir textdə bizim istəyimiz bir şeyin olub olmadığını yoxlamaq üçündür. Nümumə kod :
+
+```py
+
+if 's' in 'something':
+    print(True)
+
+True
+
+if 'x' is not 'something':
+    print(False)
+
+False
+
+```
+
