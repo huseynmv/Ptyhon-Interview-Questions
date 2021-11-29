@@ -897,3 +897,45 @@ sub() - bu methodda 2 parametr verilir, biri textdə dəyişmək istədiyiniz hi
 
 subn() - bu method da eyni sub methodu kimi işləyir, eyni zamanda nə qədər dəyişiklik edibsə onun sayın da göstərir.
 
+
+## 48. What is tuple unpacking?
+
+```py
+
+a = ('Huseyn', 'Mammadov', 21)
+
+```
+
+Yuxarıdakı nümunədə a dəyişəninə tupledakı məlumatları mənimsədirik. Bu prosess packing adlanır.
+
+```
+
+ad, soyad, yas = a
+
+```
+
+Bu kodda isə ad, soyad, yas dəyişənlərinə müvafiq olaraq tupledakı məlumatları mənimsədirik. Bu proses isə unoacking adlanır.
+
+```py
+
+print(ad)
+
+print(soyad)
+
+print(yas)
+
+```
+
+Nəticələr aşağıdakı kimi olacaqdır.
+
+```py
+
+Huseyn
+
+Mammadov
+
+21
+
+```
+
+
