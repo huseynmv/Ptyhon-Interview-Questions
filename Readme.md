@@ -622,3 +622,52 @@ KeyboardInterrupt
 # BU bir commentdir
 
 ```
+
+## 39. Which methods/functions do we use to determine the type of instance and inheritance?
+
+* Bunun üçün biz 3 funsiya/metotdan istifadə edə bilərik. Bunlar type(), isinstance() və issubclass()-dır.
+
+type() - parametr kimi daxil etdiyimiz obyektin tipini bizə qaytarır.
+
+```py
+
+type(3)
+
+<class 'int'>
+
+```
+
+isinstance() - 2 parametr götürür. Bunlar value(dəyər) və tipdir(type). Daxil etdiyimiz valuenin tipi bizim daxil etdiyimiz tipdirsə, funksiya bizə True cavabını verir. Əgər belə deyilsə False qaytarır.
+
+```py
+
+isinstance(3,int)
+
+True
+
+isinstance((1),tuple)
+
+False
+
+```
+
+issubclas() - arqument olaraq iki class qıbul edir. Bizinci class ikincidən miras alırsa(inheritance) funksiya bizə True cavabını verir, əks halda cavab False olur.
+
+```py
+
+class A: 
+    pass
+
+class B(A):
+    pass
+
+issubclass(B,A)
+
+True
+
+issubclass(A,B)
+
+False
+
+```
+
