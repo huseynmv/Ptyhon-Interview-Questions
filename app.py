@@ -1,2 +1,3 @@
-while True:
-  print('salam')
+a = 5
+
+print(A)

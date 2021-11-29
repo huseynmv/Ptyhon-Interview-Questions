@@ -807,3 +807,17 @@ False
 
 ```
 
+## 43. Is Python case-sensitive?
+
+* Bəli python case sensitive bir dildir. Misal üçün bir dəyişənin adını kiçik hətflə təyin etmişiksə, daha sonra həmin dəyişəni olduğu kimi çağırmalıyıq. Əgər fərqi cür çağırsaq aşağıdakı kimi error ilə qarşılaşacağıq.
+
+```py
+
+ad = 'Huseyn'
+
+print(AD)
+
+NameError: name 'AD' is not defined
+
+```
+
