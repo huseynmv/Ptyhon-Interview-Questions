@@ -957,3 +957,15 @@ d) a_b_c = 1,000,000
 Cavab b
 
 
+## 50. What is the output of the following?
+
+```py
+
+try: 
+    if '1' != 1: 
+        raise
+
+```
+
+Bu kodu işlətmək istədiyim zaman error ilə qarşılaşacağıq. Səbəb isə try blokunun tam olmamasıdır. Tyr istifadə edərkən ən azı bir ədəd except və ya finally yazmalıyıq.
+
